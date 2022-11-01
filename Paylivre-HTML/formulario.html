@@ -87,7 +87,8 @@ type="hidden" value ="Valor escondido">
 </fieldset>
 
 !-->
-<form action="" method="POST"></form>
+<!-- 
+    <form action="" method="POST"></form>
     <fieldset>
         
         <!--
@@ -140,48 +141,55 @@ type="hidden" value ="Valor escondido">
             ELEMENTO de formulário capaz de criar lista de opções
             a serem selecionadas ou mais conhecida como drop down 
         -->
-        <label for="teacher">Professores:</label>
-        <select name="select-teacher" id="teacher" multiple size="4">
-            <option value="Selecione um Professor"></option>
-            <option value="Luan Santos">Luan Santos</option>
-            <option value="Moacir Garcia">Moacir Garcia</option>
-            <option value="Jenifer Vieira">Jenifer Vieira</option>
-            <option value="Regis Santos">Regis Santos</option>
-        </select>
-        <!--select-teacher = [Luan Santos', Moacir Garcia']-->
-
-        <!--
-            Input Search
-            * Elemento usado para pesquisar conteúdo
-            * Parecido com o campo 'text', pode receber atributos e comportamentos
-
-        -->
-    
-        <br>
-
-        <input 
-        type="search" 
-        name="" 
-        placeholder="Busque o usuário pelo ID" 
-        size="24"
-        pattern="{0-9}{0,3}"
-        title="Busque por id de até 3 digitos"
-        required
-        >
-
-        <br>
-        <br>
-
-        <button type="submit">Enviar</button>
-
-        <!-- Manipulando arquivos com o File
-        * Usuário poderá fazer o upload de 1 ou mais 
-            arquivos de acordo com a extensão-->
-
-        <input 
-        type="file"
-        value=""
-        accept="image/*>"
-        multiple
-    </fieldset>
+        <form action="POST">
+            <fieldset>
+                <label for="teacher">Professores:</label>
+                <select name="select-teacher" id="teacher" multiple size="4">
+                    <option value="Selecione um Professor"></option>
+                    <option value="Luan Santos">Luan Santos</option>
+                    <option value="Moacir Garcia">Moacir Garcia</option>
+                    <option value="Jenifer Vieira">Jenifer Vieira</option>
+                    <option value="Regis Santos">Regis Santos</option>
+                </select>
+                    <!--select-teacher = [Luan Santos', Moacir Garcia']-->
+        
+                <!--
+                    Input Search
+                    * Elemento usado para pesquisar conteúdo
+                    * Parecido com o campo 'text', pode receber atributos e comportamentos
+        
+                -->
+            
+                <br>
+        
+                <input 
+                type="search" 
+                name="" 
+                placeholder="Busque o usuário pelo ID" 
+                size="24"
+                pattern="{0-9}{0,3}"
+                title="Busque por id de até 3 digitos"
+                required
+                >
+        
+                <br>
+                <br>
+        
+                <button type="submit">Enviar</button>
+        
+                <!-- Manipulando arquivos com o File
+                * Usuário poderá fazer o upload de 1 ou mais 
+                  arquivos de acordo com a extensão-->
+        
+                <input 
+                type="file"
+                value=""
+                accept="image/*"
+                multiple
+                name=""
+                id=""
+                >
+            </fieldset>
 </form>
+        
+
