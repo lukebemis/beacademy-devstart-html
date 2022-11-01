@@ -87,59 +87,88 @@ type="hidden" value ="Valor escondido">
 
 !-->
 <fieldset>
-    <legend>Trabalhando com Inputs</legend>
-    <label for="prof"> Seu interesse maior é por qual área<</label>
-    <div>
-        <input type="checkbox" 
-        name="interesse" 
-        id="frontend" 
-        value="Front-End Luan Monteiro"
-        checked> 
-        <label for="frontend">Front-End Luan Monteiro</label> 
-        <input type="checkbox" 
-        name="interesse" 
-        id="backend" 
-        value="Back-End Regis Santos" > 
-        <label for="backend">Back-End Regis Santos</label> 
-        <input type="checkbox"
-        name="interesse" 
-        id="designuiux" 
-        value="Design UI/UX Jenifer Vieira">
-        <label for="designuiux">Design UI/UX Jenifer Vieira</label> 
-    </div>
+        
+        <!--
 
-    <!--Interesse = front-end Luan Monteiro, Back-end Regis Santos, etc-->
+        <legend>Trabalhando com Inputs</legend>
+        <label for="prof"> Seu interesse maior é por qual área<</label>
+        <div>
+            <input type="checkbox" 
+            name="interesse" 
+            id="frontend" 
+            value="Front-End Luan Monteiro"
+            checked> 
+            <label for="frontend">Front-End Luan Monteiro</label> 
+            <input type="checkbox" 
+            name="interesse" 
+            id="backend" 
+            value="Back-End Regis Santos" > 
+            <label for="backend">Back-End Regis Santos</label> 
+            <input type="checkbox"
+            name="interesse" 
+            id="designuiux" 
+            value="Design UI/UX Jenifer Vieira">
+            <label for="designuiux">Design UI/UX Jenifer Vieira</label> 
+        </div>
 
-    <!--Radio Button-->
-
-    <h3>Deseja receber notificação da be.academy?</h3>
-    <label for="yes">Sim</label>
-    <input type="radio" id="yes" checked name="notification" value="yes">
-    <label for="no">Não</label>
-    <input type="radio" id="no" name="notification" value="no">
-    <button type="submit">Enviar</button>
+        -->
 
 
 
+        <!--Interesse = front-end Luan Monteiro, Back-end Regis Santos, etc-->
+
+        <!--Radio Button-->
+
+        <!-- 
+            
+        <h3>Deseja receber notificação da be.academy?</h3>
+        <label for="yes">Sim</label>
+        <input type="radio" id="yes" checked name="notification" value="yes">
+        <label for="no">Não</label>
+        <input type="radio" id="no" name="notification" value="no">
+        <button type="submit">Enviar</button>
 
 
-    <!-- 
-        SELECT:
+
+
+
+        <!-- 
+            SELECT:
+        
+            ELEMENTO de formulário capaz de criar lista de opções
+            a serem selecionadas ou mais conhecida como drop down 
+        -->
+        <label for="teacher">Professores:</label>
+        <select name="select-teacher" id="teacher" multiple size="4">
+            <option value="Selecione um Professor"></option>
+            <option value="Luan Santos">Luan Santos</option>
+            <option value="Moacir Garcia">Moacir Garcia</option>
+            <option value="Jenifer Vieira">Jenifer Vieira</option>
+            <option value="Regis Santos">Regis Santos</option>
+        </select>
+        <!--select-teacher = [Luan Santos', Moacir Garcia']-->
+
+        <!--
+            Input Search
+            * Elemento usado para pesquisar conteúdo
+            * Parecido com o campo 'text', pode receber atributos e comportamentos
+
+        -->
     
-        ELEMENTO de formulário capaz de criar lista de opções
-        a serem selecionadas ou mais conhecida como drop down 
-    -->
-    <label for="teacher">Professores:</label>
-    <select name="select-teacher" id="teacher" multiple size="4">
-        <option value="Selecione um Professor"></option>
-        <option value="Luan Santos">Luan Santos</option>
-        <option value="Moacir Garcia">Moacir Garcia</option>
-        <option value="Jenifer Vieira">Jenifer Vieira</option>
-        <option value="Regis Santos">Regis Santos</option>
-    </select>
-    <!--select-teacher = [Luan Santos', Moacir Garcia']-->
+        <br>
+
+        <input 
+        type="search" 
+        name="" 
+        placeholder="Busque o usuário pelo ID" 
+        size="24"
+        pattern="{0-9}{0,3}"
+        title="Busque por id de até 3 digitos"
+        required>
 
 
-    
-</fieldset>
+        <br>
+
+        <button type="submit">Enviar</button>
+    </fieldset>
 </form>
