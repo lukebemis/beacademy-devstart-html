@@ -4,8 +4,9 @@
         - POST: ENVIAR
         - GET: BUSCAR
         GET É O MODO PADRÃO
-        https://meusite.com.br/?nome=lucasritter&idade=20 
+        https://meusite.com.br/?nome=lucasritter&idade=20
         após a barra são os parameters queries
+    
 -->
 
 <!--<form action="" method="POST"> 
@@ -86,7 +87,8 @@ type="hidden" value ="Valor escondido">
 </fieldset>
 
 !-->
-<fieldset>
+<form action="" method="POST"></form>
+    <fieldset>
         
         <!--
 
@@ -164,11 +166,22 @@ type="hidden" value ="Valor escondido">
         size="24"
         pattern="{0-9}{0,3}"
         title="Busque por id de até 3 digitos"
-        required>
+        required
+        >
 
-
+        <br>
         <br>
 
         <button type="submit">Enviar</button>
+
+        <!-- Manipulando arquivos com o File
+        * Usuário poderá fazer o upload de 1 ou mais 
+            arquivos de acordo com a extensão-->
+
+        <input 
+        type="file"
+        value=""
+        accept="image/*>"
+        multiple
     </fieldset>
 </form>
