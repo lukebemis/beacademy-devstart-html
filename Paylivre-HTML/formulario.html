@@ -8,7 +8,7 @@
         após a barra são os parameters queries
 -->
 
-<form action="" method="POST"> 
+<!--<form action="" method="POST"> 
     <fieldset name="Contato">
         <legend>Preencha o Formulário de Contato</legend>
 </fieldset>
@@ -25,10 +25,10 @@
 </datalist>
 <input type="text" list="prof-list"> -->
 
-<fieldset>
-    <legend>Trabalhando com input</legend>
+<!--<fieldset>
+  <!--  <legend>Trabalhando com input</legend>
     <!-- Input text-->
-    <input 
+   <!-- <input 
     type="text"
     placeholder="Preencha o seu nome"
     size="60"
@@ -36,9 +36,9 @@
     maxlength="20"
     title="Você precisa colocar mais de 8 caracteres e menos de 20"
     readeonly
-    >
+    > </fieldset>
 <!--input number-->
-<br>
+<!--<br>
 <input 
 type="number"
 size="50"
@@ -47,7 +47,7 @@ maxlength="12"
 title="Somente números"
 >
 <!--input email-->
-<br>
+<!--<br>
 <input 
 type="email"
 size="50"
@@ -58,7 +58,7 @@ required
 >
 <br>
 <!--input password-->
-<input 
+<!--<input 
 type="password"
 size="50"
 title="Sua senha precisa ser em Hexadecimal"
@@ -68,20 +68,46 @@ inputmode="numeric"
 
 <br>
 <!--input hidden-->
-<input 
+<!--<input 
 type="hidden" value ="Valor escondido">
 
 <br>
 <!--input color-->
-<input type="color"
+<!--<input type="color"
 
 <br>
 <!--input date-->
-<input type="date">
+<!--<input type="date">
 <input type="datetime-local"
-
 
 >
 <button type="submit">Enviar</button>
 
 </fieldset>
+
+!-->
+<fieldset>
+    <legend>Trabalhando com Inputs</legend>
+    <label for="prof"> Seu interesse maior é por qual área<</label>
+    <div>
+        <input type="checkbox" 
+        name="interesse" 
+        id="frontend" 
+        value="Front-End Luan Monteiro"> 
+        <label for="frontend">Front-End Luan Monteiro</label> 
+        <input type="checkbox" 
+        name="interesse" 
+        id="backend" 
+        value="Back-End Regis Santos" > 
+        <label for="backend">Back-End Regis Santos</label> 
+        <input type="checkbox"
+        name="interesse" 
+        id="designuiux" 
+        value="Design UI/UX Jenifer Vieira">
+        <label for="designuiux">Design UI/UX Jenifer Vieira</label> 
+    </div>
+
+    <!--Interesse = front-end Luan Monteiro, Back-end Regis Santos, etc-->
+    <button type="submit">Enviar</button>
+</fieldset>
+</form>
