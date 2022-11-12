@@ -1,0 +1,14 @@
+O que eu mais gosto no CSS e em design em geral, são visuais neon, brilhantes, que chamam a atenção e cativam. Sabe aquela coisa bonita de se ver? Pois é. Então eu criei esse cubo, usando CSS e o efeito hover (pseudo classe do css) pra mostrar o que o CSS é capaz!
+
+
+
+CURRICULUM PAGE:
+I started out as an english and IT instructor when I was 18.
+I taught photoshop, illustrator, everything microsoft office had to offer and a bunch of other tools I had learned, besides english and hardware skills. 
+I was lucky enough to have grown up with a computer, which meant I was always learning new things. 
+I did everything, from downloading and sorting out free games, to learning development. 
+With Delphi 7, I had found out about programming. Low code programming, also. You could design your tool, its entries and exits and read the code you had generated, all with ease and intuititiveness for that time. I knew I wanted to follow that.
+I grew up and did an IT course. Graduated. Started working as an instructor but had to switch careers. I joined a Samsung store where I used my love for technology to inspire people to use Samsung products. Soon enough, I moved out of my parents house and out of the city, even out of the state. On my own, I found a job at an Apple Store.
+Working for the competition - and again, cutting-edge technology - broaden my knowledge and deepened my skills. I had started college and was still trying to figure out what I wanted to work with.
+It's where I found react. Frameworks and all that had been dominating the employment ads, but I didnt't have enough time and lacked a positive attitude towards myself. I took some react and figma courses, but it didn't feel right. Still searching, what an odd feeling to feel like you can't find something that you know its right in front of you. I knew I wanted to be in tech, but what tech? In order for me to find what I wanted I had to search even in places that I knew I wouldn't fit. I needed patience. Fast forward some years studying and working 9 to 5, still in the same field I had been stuck, I ended up as an IT in the public sector. Now this is where I am. This bootcamp has reignited my passion for design and motivated me to pursue something that I knew I had always wanted. To develop. 
+Thanks for reading.

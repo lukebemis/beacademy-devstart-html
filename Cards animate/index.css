@@ -1,0 +1,26 @@
+body {
+    background-color: rgb(9, 3, 27);   
+}
+.card-container {
+    display:flex;
+    flex-direction: column;
+    gap: 10rem;
+    align-items: flex-start;
+}
+.card {
+    background-color:aqua;
+    border: 1px solid rgb(30, 139, 163);
+    border-radius: .25rem;
+    padding: .5rem;
+    transform: translateX(100px);
+    opacity: 0;
+    transition: 150ms;
+    width: 70rem;
+    height: 14rem;
+    font-size: 10rem;
+}
+
+.card.show {
+    transform: translateX(0);
+    opacity: 1;
+}
